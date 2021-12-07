@@ -1,0 +1,45 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid teal; */
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  /* border: 2 px solid red;
+  border-radius: 5px; */
+}
+.profile {
+  padding-top: 10px;
+  border: 2px solid violet;
+  width: 350px;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: rgb(154, 224, 226);
+}
+.username {
+  margin: 10px 0;
+}
+.tag {
+  margin-bottom: 10px;
+}
+.location {
+  margin-bottom: 10px;
+}
+.stats {
+  padding: 5px 50px;
+  border-top: 2px solid violet;
+  min-height: 50px;
+}
+.label {
+  text-shadow: 1px solid purple;
+}

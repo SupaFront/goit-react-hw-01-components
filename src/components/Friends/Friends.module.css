@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  background-color: rgb(197, 197, 197);
+  flex-direction: row;
+  width: 170px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+/* .name {
+  margin-le
+} */
+.status {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.online {
+  background-color: green;
+}
+.offline {
+  background-color: red;
+}
